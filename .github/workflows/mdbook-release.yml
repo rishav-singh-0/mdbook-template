@@ -15,8 +15,7 @@ jobs:
 
       - name: Installation
         run: |
-          mkdir bin
-          curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.14/mdbook-v0.4.14-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+          tar -xz --directory=bin bin/mdbook-v0.4.17-x86_64-unknown-linux-gnu.tar.gz
           echo "$(pwd)/bin" >> $GITHUB_PATH
 
       - name: Build
