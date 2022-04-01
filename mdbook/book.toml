@@ -1,0 +1,6 @@
+[book]
+authors = ["Rishav Singh"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Notes"
