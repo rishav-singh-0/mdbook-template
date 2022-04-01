@@ -15,7 +15,7 @@ jobs:
 
       - name: Installation
         run: |
-          tar -xz --directory=bin bin/mdbook-v0.4.17-x86_64-unknown-linux-gnu.tar.gz
+          tar -xz --directory=bin/ bin/mdbook*.tar.gz
           echo "$(pwd)/bin" >> $GITHUB_PATH
 
       - name: Build
